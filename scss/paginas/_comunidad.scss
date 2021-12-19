@@ -1,0 +1,108 @@
+.body-comunidad {
+       background-image: url("../src/comunidad-gamer.png");
+       color: pink;
+
+    .titulo-comunidad {
+        color: red;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: none;
+        font-size: 30px;
+    }
+
+    .image-comunidad-1 {
+        margin: 80px;
+        display: grid;
+        border: white solid 2px;
+        position: relative;
+        right: 80px;
+        bottom: 50px;
+
+    }
+
+    .image-comunidad-2 {
+        display: grid;
+        border: white solid 2px;
+        position: relative;
+        right: 1px;
+        bottom: 50px;
+    }
+
+    .foro {
+        background-color: white;
+        font-size: 15px;
+        color: black;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        bottom: 520px;
+        left: 380px;
+    }
+
+    .foro-2 {
+        background-color: white;
+        font-size: 15px;
+        color: black;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        bottom: 240px;
+        left: 135px;
+    }
+
+    .discusiones {
+        color: black;
+        font-size: 20px;
+        background-color: rgba(255, 166, 0, 0.911);
+        border-radius: 5px;
+        padding: 25px;
+        position: relative;
+        bottom: 200px;
+        text-decoration: underline;
+        
+        .boton-comunidad {
+            margin: 3px;
+            text-decoration: underline;
+            border-radius: 3px;
+            font-size: 20px;
+            list-style: none;
+        }
+        
+
+    }
+
+    .comunity {
+        margin: 30px;
+        position: relative;
+        bottom: 150px;
+        left: 200px;
+    }
+
+    .rectangulo {
+        border: 5px solid white;
+        position: relative;
+        bottom: 160px;
+    }
+
+    .rectangulo-1 {
+        border: 5px solid white;
+        position: relative;
+        top: 170px;
+    }
+
+    .comunidad-presente {
+        background-color: rgb(255, 0, 255);
+        color: black;
+        font-size: 20px;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        right: 450px;
+        bottom: 130px;
+    }
+
+    .contenedor-comunidad {
+        background-color: orange;
+    }
+}
+

@@ -1,0 +1,1357 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  background-size: 100%;
+}
+
+.footer {
+  background-color: #df9203;
+  background-size: 100%;
+  padding: 10px;
+  margin-top: 70px;
+  color: black !important;
+}
+.footer nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.footer nav ul .lista-1 {
+  list-style: none;
+  color: yellow;
+  font-size: 15px;
+  background-color: #413b3b;
+  padding: 0, 5px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-1:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-1:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-2:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-2:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-3:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-3:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-4:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-4:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-5:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-5:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-6:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-6:active {
+  background-color: gray;
+}
+.footer nav ul .lista-1 .enlace-7:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.footer nav ul .lista-1 .enlace-7:active {
+  background-color: gray;
+}
+.footer .descargar {
+  width: 150px;
+  height: auto;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  margin-left: 270px;
+  margin-top: 10px;
+}
+.footer .descargar:hover {
+  background-color: black;
+  color: white;
+}
+.footer .descargar:active {
+  color: green;
+}
+.footer .red-social {
+  width: 200px;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 5px;
+  display: flex;
+  display: flexbox;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navegacion {
+  width: 1000px;
+  margin: 30px auto;
+  background-color: white;
+  display: flex;
+}
+.navegacion .navegacion div {
+  list-style: none;
+}
+.navegacion .menu button {
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+}
+.navegacion .registrarme {
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  margin: 1px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 430px;
+}
+.navegacion .registrarme:hover {
+  background-color: white;
+}
+.navegacion .sesion {
+  font-family: "teko", sans-serif;
+  color: blue;
+  background-color: black;
+  padding: 1px;
+  border-radius: 5px;
+  font-size: 23px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 610px;
+  bottom: 6px;
+}
+.navegacion .sesion:hover {
+  background-color: white;
+}
+.navegacion .idioma {
+  font-family: "teko", sans-serif;
+  font-size: 15px;
+  color: blue;
+  background-color: black;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 315px;
+  bottom: 8px;
+}
+.navegacion .idioma:hover {
+  background-color: white;
+}
+.navegacion .buscador {
+  font-family: "teko", sans-serif;
+  font-size: 15px;
+  color: blue;
+  background-color: black;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 500px;
+  bottom: 8px;
+}
+.navegacion .buscador:hover {
+  background-color: white;
+}
+
+div .logo {
+  font-family: "alfa slab one", cursive;
+  font-size: 20px;
+  color: gray;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  bottom: 240px;
+  left: 200px;
+}
+div .image-logo {
+  margin-left: 60px;
+  position: relative;
+  bottom: 190px;
+  left: 260px;
+}
+
+.titulo {
+  color: red;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "teko", sans-serif;
+}
+
+.seccion-uno {
+  background-image: url("../src/fondo-twich.jpg");
+}
+
+section div .en-vivo {
+  text-align: center;
+  color: red;
+  font-family: "Permanent Marker", cursive;
+  margin: 40px;
+  font-size: 20px;
+  text-decoration: underline;
+  background-color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+section div .in-flex {
+  display: flex;
+  display: inline-flex;
+  margin: 10px;
+}
+section div .directo {
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  left: 12px;
+}
+section div .directo-1 {
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  bottom: 200px;
+  left: 255px;
+}
+section div .directo-2 {
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  display: flex;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  bottom: 200px;
+  left: 485px;
+}
+section div .directo-3 {
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  display: flex;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  bottom: 200px;
+  left: 718px;
+}
+section div .ver {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: relative;
+  right: 450px;
+  bottom: 40px;
+  background-color: black;
+  display: inline-block;
+  margin: 40px;
+}
+section div .twich {
+  color: white;
+  background-color: #a970ff;
+  border-radius: 10px;
+  font-size: 25px;
+  position: relative;
+  right: 550px;
+  top: 10px;
+}
+section div .twich:hover {
+  color: black;
+  background-color: white;
+  transition: all 1s;
+  transform: translate(10px, 10px);
+}
+
+.seccion-tres {
+  width: 600px;
+  height: 300px;
+}
+.seccion-tres:hover {
+  transition: all 1s;
+  transform: translate(30px, 30px);
+}
+.seccion-tres .juegos-destacados {
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-family: "Permanent Marker", cursive;
+  font-size: 15px;
+}
+
+.seccion-cuatro {
+  width: 600px;
+  height: 320px;
+  margin-left: 560px;
+}
+.seccion-cuatro:hover {
+  transition: all 1s;
+  transform: translate(30px, 30px);
+}
+.seccion-cuatro div .bootstrap-item {
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.seccion-dos {
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.seccion-dos .boton-tienda {
+  background-color: black;
+  display: inline;
+  padding: 2px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  margin: 50px;
+}
+.seccion-dos .boton-tienda:active {
+  color: blue;
+}
+.seccion-dos .boton-categorias {
+  background-color: black;
+  padding: 2px;
+  font-size: 20px;
+  margin: 50px;
+}
+.seccion-dos .boton-categorias:active {
+  color: blue;
+}
+.seccion-dos .boton-noticias {
+  background-color: black;
+  padding: 2px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  margin: 50px;
+}
+.seccion-dos .boton-noticias:active {
+  color: blue;
+}
+.seccion-dos .boton-puntos {
+  background-color: black;
+  padding: 2px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  margin: 50px;
+}
+.seccion-dos .boton-puntos:active {
+  color: blue;
+}
+
+.cuerpo-tienda {
+  color: pink;
+  padding: 20px;
+}
+.cuerpo-tienda section .tienda {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: "Akronim", cursive;
+  background-color: gray;
+}
+.cuerpo-tienda section .subtitulo-recomendados {
+  color: red;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 25px;
+}
+.cuerpo-tienda section .subtitulo-vendido {
+  color: red;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 25px;
+}
+.cuerpo-tienda .contenedor-cards {
+  display: flex;
+  display: flexbox;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.cuerpo-tienda .card {
+  width: 300px;
+  background-color: red;
+  padding: 10px;
+  margin: 8px;
+}
+.cuerpo-tienda .contenedor-cards-videos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+.cuerpo-tienda .contenedor-cards-videos:hover {
+  transition: all 1s;
+  transform: translate(10px, 10px);
+}
+.cuerpo-tienda .card-text {
+  width: 200px;
+  height: auto;
+  background-color: rgba(0, 128, 0, 0.4);
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.cuerpo-tienda .item {
+  border: 2px solid white;
+}
+
+.juegos {
+  background-image: url("../src/puntos-juegos.jpg");
+  background-size: 100%;
+  color: pink;
+  margin: 40px;
+}
+.juegos .categorias {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: "Akronim", cursive;
+  background-color: gray;
+}
+.juegos .aventura {
+  font-size: 20px;
+}
+.juegos .aventura::first-letter {
+  color: green;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.juegos .parrafo-aventura {
+  font-size: 15px;
+}
+.juegos .lista-aventura {
+  background-color: white;
+}
+.juegos .comprar {
+  font-size: 18px;
+  background-color: white;
+  display: inline-block;
+  color: green;
+  border-radius: 5px;
+  position: relative;
+  left: 510px;
+  bottom: 130px;
+}
+.juegos .comprar:hover {
+  background-color: black;
+  transform: scale(2);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.juegos .sea-of-thieves {
+  position: relative;
+  left: 100px;
+  top: 20px;
+}
+.juegos .new-world {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .tales {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .eastward {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .contenedor-thieves {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .contenedor-thieves ul .texto-aventura {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 460px;
+  bottom: 150px;
+}
+.juegos .texto-aventura-1 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 460px;
+  bottom: 150px;
+}
+.juegos .contenedor-world {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-aventura-2 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 460px;
+  bottom: 150px;
+}
+.juegos .contenedor-tales {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-aventura-3 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 460px;
+  bottom: 150px;
+}
+.juegos .contenedor-eastward {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-aventura-4 {
+  background-color: rgba(0, 0, 133, 0.349);
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+}
+.juegos .accion::first-letter {
+  color: green;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 30px;
+}
+.juegos .parrafo-accion {
+  font-size: 15px;
+}
+.juegos .lista-accion {
+  background-color: white;
+}
+.juegos .comprar-fresh {
+  font-size: 18px;
+  background-color: green;
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  left: 595px;
+  bottom: 155px;
+}
+.juegos .comprar-fresh:hover {
+  background-color: white;
+  transform: scale(2);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.juegos .comprar-arboria {
+  font-size: 18px;
+  background-color: green;
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  left: 595px;
+  bottom: 155px;
+}
+.juegos .comprar-arboria:hover {
+  background-color: white;
+  transform: scale(2);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.juegos .comprar-cube {
+  font-size: 18px;
+  background-color: green;
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  left: 595px;
+  bottom: 155px;
+}
+.juegos .comprar-cube:hover {
+  background-color: white;
+  transform: scale(2);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.juegos .comprar-toroom {
+  font-size: 18px;
+  background-color: green;
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  left: 595px;
+  bottom: 155px;
+}
+.juegos .comprar-toroom:hover {
+  background-color: white;
+  transform: scale(2);
+  transition-duration: 1s;
+  transition-property: all;
+}
+.juegos .fresh-body {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .arboria {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .cube-world {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .toroom {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.juegos .texto-accion {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 550px;
+  bottom: 150px;
+}
+.juegos .contenedor-fresh {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-accion-1 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
+}
+.juegos .contenedor-arboria {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-accion-2 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
+}
+.juegos .contenedor-cube {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-accion-3 {
+  background-color: black;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
+}
+.juegos .contenedor-toroom {
+  background-color: rgba(255, 166, 0, 0.678);
+}
+.juegos .texto-accion-4 {
+  background-color: rgba(0, 0, 133, 0.349);
+  display: inline-block;
+  color: black;
+  border-radius: 5px;
+  list-style: none;
+  font-size: 20px;
+  position: relative;
+  left: 500px;
+}
+
+.cuerpo-noticias {
+  background-image: url("../src/espn.png");
+  background-repeat: repeat;
+  color: pink;
+  background-size: 100%;
+  margin: 20px;
+}
+.cuerpo-noticias .noticias {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: "Akronim", cursive;
+  background-color: gray;
+}
+.cuerpo-noticias .subtitulo-esports {
+  color: red;
+  text-align: left;
+  font-size: 25px;
+  text-decoration: underline;
+  margin: 25px;
+}
+.cuerpo-noticias .contenedor-grids {
+  background-color: rgba(128, 128, 128, 0.05);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 800px;
+  margin: auto;
+  border: 4px solid white;
+}
+.cuerpo-noticias .contenedor-grids .grid-item {
+  border: 3px solid red;
+  margin: 10px;
+  background-color: #8fa3b0;
+  column-gap: 100px;
+}
+.cuerpo-noticias .contenedor-grids .grid-item .titulo-a {
+  color: red;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "teko", sans-serif;
+  margin-right: 60px;
+}
+.cuerpo-noticias .contenedor-grids .grid-item .titulo-b {
+  color: red;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "teko", sans-serif;
+  margin-right: 60px;
+}
+.cuerpo-noticias .contenedor-grids .grid {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 70px;
+  color: black;
+}
+.cuerpo-noticias .contenedor-grids .grid .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid .horarios {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 160px;
+}
+.cuerpo-noticias .contenedor-grids .grid {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 70px;
+  color: black;
+  margin-top: 70px;
+}
+.cuerpo-noticias .contenedor-grids .grid .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid .horarios-1 {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 140px;
+}
+.cuerpo-noticias .contenedor-grids .grid {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 60px;
+  color: black;
+  margin-top: 70px;
+  align-items: center;
+}
+.cuerpo-noticias .contenedor-grids .grid .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid .horarios-2 {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 170px;
+}
+.cuerpo-noticias .contenedor-grids .grid-1 {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 60px;
+  color: black;
+  margin-top: 70px;
+  align-items: center;
+}
+.cuerpo-noticias .contenedor-grids .grid-1 .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid-1 .horarios-3 {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 130px;
+}
+.cuerpo-noticias .contenedor-grids .grid-2 {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 60px;
+  color: black;
+  margin-top: 70px;
+  align-items: center;
+}
+.cuerpo-noticias .contenedor-grids .grid-2 .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid-2 .horarios-4 {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 130px;
+}
+.cuerpo-noticias .contenedor-grids .grid-3 {
+  display: flex;
+  display: flexbox;
+  margin: 20px;
+  margin-left: 60px;
+  color: black;
+  margin-top: 70px;
+  align-items: center;
+}
+.cuerpo-noticias .contenedor-grids .grid-3 .vs {
+  margin: 20px;
+  color: red;
+}
+.cuerpo-noticias .contenedor-grids .grid-3 .horarios-5 {
+  font-size: 18px;
+  position: relative;
+  top: 35px;
+  right: 120px;
+}
+.cuerpo-noticias .contenedor-grids .worlds {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.cuerpo-noticias .apartado-blog {
+  background-color: rgba(255, 166, 0, 0.795);
+  margin: auto;
+  padding: 0%;
+  border-radius: 5px;
+}
+.cuerpo-noticias .apartado-blog .blog {
+  background-color: blue;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 320px;
+}
+.cuerpo-noticias .apartado-blog .informacion {
+  margin: 10px;
+  position: relative;
+  left: 500px;
+}
+
+.cuerpo-tienda-de-puntos {
+  background-image: black;
+  color: pink;
+  background-size: 100%;
+  margin: 20px;
+  font-size: 15px;
+}
+.cuerpo-tienda-de-puntos .puntos {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  font-family: "Akronim", cursive;
+  background-color: gray;
+}
+.cuerpo-tienda-de-puntos #h2 {
+  color: red;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 20px;
+}
+.cuerpo-tienda-de-puntos a .articulos {
+  margin: 10px;
+}
+.cuerpo-tienda-de-puntos .parrafo-nfts {
+  width: 400px;
+  height: 400px;
+}
+.cuerpo-tienda-de-puntos .binance {
+  position: relative;
+  bottom: 200px;
+}
+.cuerpo-tienda-de-puntos .lista-1 {
+  list-style: none;
+  color: yellow;
+  font-size: 15px;
+  background-color: #413b3b;
+  padding: 0, 5px;
+  border-radius: 10px;
+}
+.cuerpo-tienda-de-puntos .lista-1 .enlace-1:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+}
+.cuerpo-tienda-de-puntos .lista-1 .enlace-1:active {
+  background-color: gray;
+}
+
+.body-empleamos {
+  background-image: url("../src/gamer-zone.jpg");
+  color: pink;
+}
+.body-empleamos .empleo {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 30px;
+}
+.body-empleamos .parrafo {
+  background-color: black;
+}
+.body-empleamos .lista-de-areas {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.body-empleamos .areas {
+  font-size: 35px;
+  margin: 5px;
+  background-color: white;
+  padding: 100px;
+  list-style: none;
+  text-align: center;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.body-empleamos .areas:hover {
+  color: orange;
+}
+.body-empleamos .diseño-juegos {
+  position: relative;
+  bottom: 490px;
+  left: 20px;
+}
+.body-empleamos .recursos-humanos {
+  position: relative;
+  bottom: 340px;
+}
+.body-empleamos .arte-visual {
+  position: relative;
+  bottom: 200px;
+  right: 510px;
+}
+.body-empleamos .ciencia-datos {
+  position: relative;
+  bottom: 500px;
+  left: 20px;
+}
+.body-empleamos .diseño-hardware {
+  position: relative;
+  bottom: 340px;
+  left: 30px;
+}
+.body-empleamos .trabajo-finanzas {
+  position: relative;
+  bottom: 350px;
+  left: 810px;
+}
+.body-empleamos .cv {
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.616);
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  display: flex;
+  display: inline-block;
+  position: relative;
+  right: 500px;
+}
+.body-empleamos .laboral {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.815);
+  border-radius: 5px;
+  width: 1000px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  bottom: 200px;
+}
+.body-empleamos .ambiente-sano {
+  margin: 10px;
+  position: relative;
+  bottom: 200px;
+  left: 50px;
+}
+
+.body-contacto {
+  background-color: black;
+  color: pink;
+}
+.body-contacto .contacto {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 30px;
+}
+.body-contacto .subtitulo {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.body-contacto .contenedor-fallos .contact {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.body-contacto .contenedor-fallos .fallos {
+  position: relative;
+  bottom: 200px;
+  left: 900px;
+}
+.body-contacto .contenedor-fallos .fallos-1 {
+  position: relative;
+  bottom: 200px;
+  right: 190px;
+}
+.body-contacto .contenedor-fallos .parrafo-1 {
+  color: black;
+  font-size: 20px;
+  background-color: #f0a211;
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 250px;
+  border: white solid 2px;
+}
+.body-contacto .imagen {
+  position: relative;
+  top: 250px;
+  right: 150px;
+  margin: 10px;
+}
+
+.body-comunidad {
+  background-image: url("../src/comunidad-gamer.png");
+  color: pink;
+}
+.body-comunidad .titulo-comunidad {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 30px;
+}
+.body-comunidad .image-comunidad-1 {
+  margin: 80px;
+  display: grid;
+  border: white solid 2px;
+  position: relative;
+  right: 80px;
+  bottom: 50px;
+}
+.body-comunidad .image-comunidad-2 {
+  display: grid;
+  border: white solid 2px;
+  position: relative;
+  right: 1px;
+  bottom: 50px;
+}
+.body-comunidad .foro {
+  background-color: white;
+  font-size: 15px;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  bottom: 520px;
+  left: 380px;
+}
+.body-comunidad .foro-2 {
+  background-color: white;
+  font-size: 15px;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  bottom: 240px;
+  left: 135px;
+}
+.body-comunidad .discusiones {
+  color: black;
+  font-size: 20px;
+  background-color: rgba(255, 166, 0, 0.911);
+  border-radius: 5px;
+  padding: 25px;
+  position: relative;
+  bottom: 200px;
+  text-decoration: underline;
+}
+.body-comunidad .discusiones .boton-comunidad {
+  margin: 3px;
+  text-decoration: underline;
+  border-radius: 3px;
+  font-size: 20px;
+  list-style: none;
+}
+.body-comunidad .comunity {
+  margin: 30px;
+  position: relative;
+  bottom: 150px;
+  left: 200px;
+}
+.body-comunidad .rectangulo {
+  border: 5px solid white;
+  position: relative;
+  bottom: 160px;
+}
+.body-comunidad .rectangulo-1 {
+  border: 5px solid white;
+  position: relative;
+  top: 170px;
+}
+.body-comunidad .comunidad-presente {
+  background-color: fuchsia;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  right: 450px;
+  bottom: 130px;
+}
+.body-comunidad .contenedor-comunidad {
+  background-color: orange;
+}
+
+.quienes-somos {
+  background-color: black;
+  text-align: left;
+  color: white;
+  margin: 20px;
+}
+.quienes-somos .informacion {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 30px;
+}
+.quienes-somos .te-contamos {
+  color: pink;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 20px;
+}
+.quienes-somos .dedicados {
+  color: black;
+  font-size: 20px;
+  background-color: #f0a211;
+  padding: 10px;
+  border-radius: 5px;
+}
+.quienes-somos .usuarios {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.quienes-somos .empresa {
+  color: black;
+  text-align: right;
+  font-size: 20px;
+  margin: 10px;
+  list-style: none;
+  background-color: #f0a211;
+  border-radius: 10px;
+  padding: 5px;
+}
+.quienes-somos .descargar-1 {
+  background-color: red;
+  color: white;
+  text-align: left;
+  margin-left: 590px;
+  font-size: 18px;
+  width: 200px;
+  height: auto;
+}
+
+.body-tarjets {
+  background-image: url("../src/gaiming.jpg");
+  color: pink;
+}
+.body-tarjets .tarjetas {
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  font-size: 30px;
+}
+.body-tarjets .subtitulo {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.body-tarjets .subtitulo-1 {
+  font-size: 20px;
+  text-decoration: underline;
+  background-color: white;
+  padding: 1px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: 3px;
+}
+.body-tarjets .canjear {
+  font-size: 20px;
+  color: black;
+  background-color: #f0a211;
+  padding: 5px;
+  border-radius: 5px;
+}
+.body-tarjets .image-tarjetas {
+  margin: 17px;
+}
+.body-tarjets .div-tarjetas {
+  background-color: #f0a211;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.body-tarjets .activar {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.body-tarjets .continuar-comprar {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0px;
+  font-size: 20px;
+}
+.body-tarjets .contenedor-tarjetas {
+  background-color: rgba(238, 130, 238, 0.521);
+}
+
+.contenedor-continuar {
+  background-color: black;
+}
+.contenedor-continuar div .flex {
+  margin: 30px;
+}
+.contenedor-continuar div .flex-comprar {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  text-decoration: underline;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

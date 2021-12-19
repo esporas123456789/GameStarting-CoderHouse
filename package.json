@@ -1,0 +1,19 @@
+{
+  "name": "desafio11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esporas123456789/index-CoderHouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esporas123456789/index-CoderHouse/issues"
+  },
+  "homepage": "https://github.com/esporas123456789/index-CoderHouse#readme",
+  "description": ""
+}

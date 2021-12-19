@@ -1,0 +1,107 @@
+.body-empleamos {
+        background-image: url("../src/gamer-zone.jpg");
+        color: pink;
+
+    .empleo {
+        color: red;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: none;
+        font-size: 30px;
+    }
+
+    .parrafo {
+        background-color: black;
+    }
+
+    .lista-de-areas {
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        margin: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .areas { 
+        font-size: 35px;
+        margin: 5px;
+        background-color: white;
+        padding: 100px;
+        list-style: none;
+        text-align: center;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        &:hover {
+            color: orange;
+        }
+    }
+
+    .diseño-juegos {
+        position: relative;
+        bottom: 490px;
+        left: 20px;
+    }
+
+    .recursos-humanos {
+        position: relative;
+        bottom: 340px;
+    }
+
+    .arte-visual {
+        position: relative;
+        bottom: 200px;
+        right: 510px;
+    }
+    
+    .ciencia-datos {
+        position: relative;
+        bottom: 500px;
+        left: 20px;
+    }
+    
+    .diseño-hardware {
+        position: relative;
+        bottom: 340px;
+        left: 30px;
+    }
+
+    .trabajo-finanzas {
+        position: relative;
+        bottom: 350px;
+        left: 810px;
+    }
+    
+    .cv {
+        border-radius: 5px;
+        background-color: rgba(255, 0, 0, 0.616);
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+        display: flex;
+        display: inline-block;
+        position: relative;
+        right: 500px;
+    }
+
+    .laboral {
+        font-size: 20px;
+        color: white;
+        background-color: rgba(255, 166, 0, 0.815);
+        border-radius: 5px;
+        width: 1000px;
+        height: 100px;
+        margin: 10px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .ambiente-sano {
+        margin: 10px;
+        position: relative;
+        bottom: 200px;
+        left: 50px;
+    }
+}

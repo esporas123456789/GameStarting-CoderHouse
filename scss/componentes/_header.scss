@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    display: flex;
+
+    .navegacion div {
+        list-style: none;
+    }
+
+    .menu button { 
+        display: inline-block;
+        padding: 5px;
+        margin: 20px;
+    }
+    
+    .registrarme { 
+        font-size: 30px;
+        font-family: "teko", sans-serif;
+        margin: 1px;
+        background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 430px;
+    
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    .sesion {
+        font-family: "teko", sans-serif;
+        color: blue;
+        background-color: black;
+        padding: 1px;
+        border-radius: 5px;
+        font-size: 23px;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 610px;
+        bottom: 6px;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    .idioma {
+        font-family: "teko", sans-serif;
+        font-size: 15px;
+        color: blue;
+        background-color: black;
+        padding: 1px;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 315px;
+        bottom: 8px;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    .buscador {
+        font-family: "teko", sans-serif;
+        font-size: 15px;
+        color: blue;
+        background-color: black;
+        padding: 1px;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        left: 500px;
+        bottom: 8px;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+}
+
+div {
+    .logo {
+        font-family: "alfa slab one", cursive;
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+        width: 10px;
+        height: 10px;
+        position: relative;
+        bottom: 240px;
+        left: 200px;
+    }
+
+    .image-logo {
+        margin-left: 60px;
+        position: relative;
+        bottom: 190px;
+        left: 260px;
+    }
+
+
+}
+
+.titulo {
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:  "teko", sans-serif;
+}

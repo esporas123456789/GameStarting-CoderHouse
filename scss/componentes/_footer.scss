@@ -1,0 +1,150 @@
+.footer {
+    background-color: rgb(223, 146, 3);
+    background-size: 100%;
+    padding: 10px;
+    margin-top: 70px;
+    color: black !important;
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            
+        
+         
+            .lista-1 {
+                list-style: none;
+                color: yellow;
+                font-size: 15px;
+                background-color: rgb(65, 59, 59);
+                padding: 0,5px;
+                border-radius: 10px;
+            
+            .enlace-1 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+
+            .enlace-2 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+             
+            .enlace-3 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+
+            .enlace-4 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+
+            .enlace-5 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+
+            .enlace-6 {
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+
+            .enlace-7 {
+                &:hover { 
+                    background-color: black;
+                    color: white;
+                    padding: 2px;
+                    border-radius: 10px;
+                }
+
+                &:active {
+                    background-color:  gray;
+                }
+            }
+    
+        
+        }
+
+    }
+
+}
+
+  .descargar {
+    width: 150px;
+    height: auto;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin-left: 270px;
+    margin-top: 10px;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+    &:active {
+        color: green;
+    }
+  }
+  
+  
+  .red-social {
+    width: 200px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 5px;
+    display: flex;
+    display: flexbox;
+  }
+  
+}

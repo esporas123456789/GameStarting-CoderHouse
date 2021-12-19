@@ -1,0 +1,68 @@
+.cuerpo-tienda-de-puntos {
+        background-image: black;
+        color: pink;
+        background-size: 100%;
+        margin: 20px;
+        font-size: 15px;
+
+    .puntos {
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 50px;
+        font-family: 'Akronim', cursive;
+        background-color: gray;
+    }
+
+    #h2 {
+        color: red;
+        text-align: left;
+        font-size: 20px;
+        text-decoration: underline;
+        margin: 20px
+    }
+
+    a {
+        .articulos {
+            margin: 10px;
+        }
+    }
+
+    .parrafo-nfts {
+        width: 400px;
+        height: 400px;
+    }
+
+    .binance {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .lista-1 {
+        list-style: none;
+        color: yellow;
+        font-size: 15px;
+        background-color: rgb(65, 59, 59);
+        padding: 0,5px;
+        border-radius: 10px;
+    
+    .enlace-1 {
+        &:hover {
+            background-color: black;
+            color: white;
+            padding: 2px;
+            border-radius: 10px;
+        }
+
+        &:active {
+            background-color:  gray;
+        }
+    }    
+     
+  }  
+
+
+
+
+
+}  

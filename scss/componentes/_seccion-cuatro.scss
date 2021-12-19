@@ -1,0 +1,20 @@
+.seccion-cuatro {
+    width: 600px;
+    height: 320px;
+    margin-left: 560px;
+
+    &:hover {
+        transition: all 1s;
+        transform: translate(30px, 30px);
+    }
+
+    div {
+        .bootstrap-item {
+            background-color: red;
+            border-radius: 10px;
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+        }
+    }
+}

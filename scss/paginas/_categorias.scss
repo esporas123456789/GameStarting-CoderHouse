@@ -1,0 +1,354 @@
+.juegos {
+    background-image: url("../src/puntos-juegos.jpg");
+    background-size: 100%;
+    color: pink;
+    margin: 40px;
+
+    .categorias {
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 50px;
+        font-family: 'Akronim', cursive;
+        background-color: gray;
+    }
+
+    .aventura {
+        font-size: 20px;
+
+
+        &::first-letter {
+            color: green;
+            text-align: left;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+
+    }
+
+    .parrafo-aventura {
+        font-size: 15px;
+    }
+
+    .lista-aventura {
+        background-color: white;
+    }
+
+    .comprar {
+        font-size: 18px;
+        background-color: white;
+        display: inline-block;
+        color: green;
+        border-radius: 5px;
+        position: relative;
+        left: 510px;
+        bottom: 130px;
+
+
+        &:hover {
+            background-color: black;
+            transform: scale(2);
+            transition-duration: 1s;
+            transition-property: all;
+        }
+
+        
+    }
+
+    .sea-of-thieves {
+        position: relative;
+        left: 100px;
+        top: 20px;
+    }
+        
+    .new-world { 
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .tales {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+    
+    .eastward {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .contenedor-thieves {
+        background-color: rgba(255, 166, 0, 0.678);
+    
+        ul {
+            
+                .texto-aventura {
+                    background-color: black;
+                    border-radius: 10px;
+                    list-style: none;
+                    font-size: 20px;
+                    width: 200px;
+                    height: 120px;
+                    position: relative;
+                    left: 460px;
+                    bottom: 150px;
+                }
+            
+        }
+    
+    }
+
+    .texto-aventura-1 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 460px;
+        bottom: 150px;
+    }
+
+    .contenedor-world {
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-aventura-2 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 460px;
+        bottom: 150px;
+    }
+
+    .contenedor-tales {
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-aventura-3 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 460px;
+        bottom: 150px;
+    }
+
+    .contenedor-eastward { 
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-aventura-4 {
+        background-color: rgba(0, 0, 133, 0.349);
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        list-style: none;
+        font-size: 20px;
+        position: relative;
+        left: 500px;
+    }
+
+    .accion  {
+        &::first-letter {
+            color: green;
+            text-align: left;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+    }
+
+    .parrafo-accion {  
+        font-size: 15px;
+    }
+
+    .lista-accion {
+        background-color: white;
+    }
+
+    .comprar-fresh { 
+        font-size: 18px;
+        background-color: green;
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 595px;
+        bottom: 155px;
+
+
+        &:hover {
+            background-color: white;
+            transform: scale(2);
+            transition-duration: 1s;
+            transition-property: all;
+        }
+    }
+
+    .comprar-arboria {
+        font-size: 18px;
+        background-color: green;
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 595px;
+        bottom: 155px;
+
+
+        &:hover {
+            background-color: white;
+            transform: scale(2);
+            transition-duration: 1s;
+            transition-property: all;
+        }
+    }
+
+    .comprar-cube {
+        font-size: 18px;
+        background-color: green;
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 595px;
+        bottom: 155px;
+
+
+        &:hover {
+            background-color: white;
+            transform: scale(2);
+            transition-duration: 1s;
+            transition-property: all;
+        }
+    }
+
+    .comprar-toroom {
+        font-size: 18px;
+        background-color: green;
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 595px;
+        bottom: 155px;
+
+
+        &:hover {
+            background-color: white;
+            transform: scale(2);
+            transition-duration: 1s;
+            transition-property: all;
+        }
+    }
+
+    .fresh-body {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .arboria {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .cube-world {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .toroom {
+        position: relative;
+        top: 20px;
+        left: 100px;
+    }
+
+    .texto-accion {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 550px;
+        bottom: 150px;
+    }
+
+    .contenedor-fresh {
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-accion-1 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 500px;
+        bottom: 150px;
+    }
+
+    .contenedor-arboria {
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-accion-2 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 500px;
+        bottom: 150px;
+    }
+
+    .contenedor-cube {
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-accion-3 {
+        background-color: black;
+        border-radius: 10px;
+        list-style: none;
+        font-size: 20px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        left: 500px;
+        bottom: 150px;
+    }
+
+    .contenedor-toroom { 
+        background-color: rgba(255, 166, 0, 0.678);
+    }
+
+    .texto-accion-4 { 
+        background-color: rgba(0, 0, 133, 0.349);
+        display: inline-block;
+        color: black;
+        border-radius: 5px;
+        list-style: none;
+        font-size: 20px;
+        position: relative;
+        left: 500px;
+    }
+}
+

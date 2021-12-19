@@ -1,0 +1,74 @@
+@import "../bases/listas";
+@import "../bases/variables";
+
+
+.body-tarjets {
+    background-image: url("../src/gaiming.jpg");
+    color: nth($colores, 6);
+   
+    .tarjetas {
+        color: nth($colores, 1);
+        text-align: center;
+        text-decoration: $text-decoration-general;
+        text-transform: none;
+        font-size: 30px;
+    }
+    
+
+    .subtitulo {
+        font-size: 20px;
+        text-decoration: $text-decoration-general;
+    }
+
+    .subtitulo-1 {
+        font-size: 20px;
+        text-decoration: $text-decoration-general;
+        background-color: white;
+        padding: 1px;
+        border-radius: 5px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        right: 3px;
+    }
+
+    .canjear {   
+        font-size: 20px;
+        color: nth($colores, 5);
+        background-color: rgb(240, 162, 17);
+        padding: $padding-otro;
+        border-radius: 5px;
+    }
+
+    .image-tarjetas  {
+        margin: 17px;
+    }
+
+    .div-tarjetas  {
+        background-color: rgb(240, 162, 17);
+        padding: $padding-otro;
+        color: black;
+        font-size: 20px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+ 
+    .activar {
+        color: white;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .continuar-comprar { 
+        background-color: nth($colores, 7);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .contenedor-tarjetas {
+        background-color: rgba(238, 130, 238, 0.521);
+    }
+}

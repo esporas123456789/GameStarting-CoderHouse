@@ -1,0 +1,17 @@
+.seccion-tres {
+    width: 600px;
+    height: 300px;
+
+    &:hover {
+        transition: all 1s;
+        transform: translate(30px, 30px);
+    }
+
+    .juegos-destacados {
+        text-align: center;
+        color: red;
+        text-decoration: underline;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+    }
+}
