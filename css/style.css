@@ -120,6 +120,7 @@ html {
   margin: 30px auto;
   background-color: white;
   display: flex;
+  flex-direction: row;
 }
 .navegacion .navegacion div {
   list-style: none;
@@ -1352,6 +1353,17 @@ section div .twich:hover {
   text-decoration: underline;
   font-size: 15px;
   padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .container-flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-flex {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
