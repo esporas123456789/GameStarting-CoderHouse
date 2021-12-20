@@ -92,7 +92,7 @@ body {
   background-color: green;
   border-radius: 5px;
   color: white;
-  margin-left: 270px;
+  margin-left: 290px;
   margin-top: 10px;
 }
 .footer .descargar:hover {
@@ -109,6 +109,14 @@ body {
   margin-top: 5px;
   display: flex;
   display: flexbox;
+}
+.footer .redes {
+  display: flex;
+  justify-content: right;
+}
+.footer .img-redes {
+  background-color: gray;
+  padding: 5px;
 }
 
 html {
@@ -226,12 +234,11 @@ div .image-logo {
 
 section div .en-vivo {
   text-align: center;
-  color: red;
+  color: white;
   font-family: "Permanent Marker", cursive;
-  margin: 40px;
+  margin: 50px;
   font-size: 20px;
   text-decoration: underline;
-  background-color: white;
   padding: 2px;
   border-radius: 5px;
 }
@@ -244,7 +251,7 @@ section div .directo {
   color: white;
   font-size: 15px;
   background-color: red;
-  border-radius: 20px;
+  border-radius: 30px;
   display: flex;
   display: inline-block;
   position: relative;
@@ -261,7 +268,7 @@ section div .directo-1 {
   margin: 10px;
   position: relative;
   bottom: 200px;
-  left: 255px;
+  left: 240px;
 }
 section div .directo-2 {
   border-radius: 20px;
@@ -273,7 +280,7 @@ section div .directo-2 {
   margin: 10px;
   position: relative;
   bottom: 200px;
-  left: 485px;
+  left: 460px;
 }
 section div .directo-3 {
   border-radius: 20px;
@@ -285,29 +292,31 @@ section div .directo-3 {
   margin: 10px;
   position: relative;
   bottom: 200px;
-  left: 718px;
+  left: 675px;
 }
 section div .ver {
   color: white;
   text-decoration: underline;
   text-transform: uppercase;
   position: relative;
-  right: 450px;
+  right: 435px;
   bottom: 40px;
   background-color: black;
   display: inline-block;
   margin: 40px;
 }
-section div .twich {
+section div .twich-flex {
+  display: flex;
+  justify-content: center;
+}
+section div .twich-flex .twich {
   color: white;
   background-color: #a970ff;
   border-radius: 10px;
-  font-size: 25px;
-  position: relative;
-  right: 550px;
-  top: 10px;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
-section div .twich:hover {
+section div .twich-flex .twich:hover {
   color: black;
   background-color: white;
   transition: all 1s;
@@ -347,54 +356,58 @@ section div .twich:hover {
   font-size: 20px;
 }
 
-.seccion-dos {
-  background-color: beige;
-  padding: 10px;
-  margin: 10px;
+#seccion-dos {
+  background-image: url("../src/compra-tienda.jpg");
+  padding: 20px;
   text-align: center;
 }
-.seccion-dos .boton-tienda {
+#seccion-dos .boton-tienda {
   background-color: black;
   display: inline;
   padding: 2px;
   margin-top: 70px;
   margin-bottom: 70px;
   font-size: 20px;
-  margin: 50px;
+  margin: 100px;
 }
-.seccion-dos .boton-tienda:active {
+#seccion-dos .boton-tienda:active {
   color: blue;
 }
-.seccion-dos .boton-categorias {
+#seccion-dos .boton-categorias {
   background-color: black;
   padding: 2px;
   font-size: 20px;
-  margin: 50px;
+  margin: 100px;
 }
-.seccion-dos .boton-categorias:active {
+#seccion-dos .boton-categorias:active {
   color: blue;
 }
-.seccion-dos .boton-noticias {
-  background-color: black;
-  padding: 2px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  font-size: 20px;
-  margin: 50px;
-}
-.seccion-dos .boton-noticias:active {
-  color: blue;
-}
-.seccion-dos .boton-puntos {
+#seccion-dos .boton-noticias {
   background-color: black;
   padding: 2px;
   margin-top: 70px;
   margin-bottom: 70px;
   font-size: 20px;
-  margin: 50px;
+  margin: 100px;
 }
-.seccion-dos .boton-puntos:active {
+#seccion-dos .boton-noticias:active {
   color: blue;
+}
+#seccion-dos .boton-puntos {
+  background-color: black;
+  padding: 2px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  margin: 100px;
+}
+#seccion-dos .boton-puntos:active {
+  color: blue;
+}
+#seccion-dos .card-flex {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cuerpo-tienda {
@@ -1353,17 +1366,6 @@ section div .twich:hover {
   text-decoration: underline;
   font-size: 15px;
   padding: 5px;
-}
-
-@media screen and (max-width: 500px) {
-  .container-flex {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 500px) {
-  .container-flex {
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -124,7 +124,7 @@
     background-color: green;
     border-radius: 5px;
     color: white;
-    margin-left: 270px;
+    margin-left: 290px;
     margin-top: 10px;
 
     &:hover {
@@ -145,6 +145,16 @@
     margin-top: 5px;
     display: flex;
     display: flexbox;
+  }
+
+  .redes {
+    display: flex;
+    justify-content: right;
+  }
+
+  .img-redes {
+    background-color: gray;
+    padding: 5px;
   }
   
 }
